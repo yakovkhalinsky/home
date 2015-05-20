@@ -1,0 +1,78 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    background: #000;
+}
+
+.world {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+}
+
+.life {
+    width: auto;
+    border: 3px solid #999;
+    margin: 25px;
+}
+
+.population {
+    transition: width 400ms ease-out;
+    position: absolute;
+    top: 0;
+    left: 25px;
+    width: 100px;
+    height: 25px;
+    background: #009c58;
+}
+
+.alive {
+    position: absolute;
+    top: 5px;
+    left: 35px;
+    color: #e5e5e5;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+.actions {
+    display: inline-block;
+    margin: -14px 0 0 15px;
+    width: 100%;
+}
+
+.title {
+    font-family: sans-serif;
+    font-size: 26px;
+    color: #999;
+    margin: 15px;
+}
+
+button {
+    transition: background 400ms ease-out, border 400ms ease-out, color 400ms ease-out;
+    cursor: pointer;
+    border: 1px solid #999;
+    padding: 15px 35px;
+    background: #000;
+    color: #999;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-left: 15px;
+}
+
+button:focus {
+    outline: 0;
+}
+
+button:active {
+    background: #9c9c9c;
+}
+
+button:hover {
+    border: 1px solid #fff;
+    color: #fff;
+    background: #999;
+}
