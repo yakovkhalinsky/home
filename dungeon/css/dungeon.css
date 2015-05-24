@@ -1,0 +1,59 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+#overlay {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    color: #fff;
+    background: #000;
+    opacity: 0.7;
+    z-index: 10;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    font-family: sans-serif;
+    font-size: 11px;
+}
+
+#level {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    background-image: url('../img/brick-floor-light.png');
+}
+
+#me {
+    position: relative;
+    display: inline-block;
+    top: 100px;
+    left: 100px;
+    width: 10px;
+    height: 10px;
+    background-image: url(../img/me-down-move.png);
+    background-repeat: no-repeat;
+    background-size: 70px 80px;
+    background-position: 8px 0;
+}
+
+#me.down {
+    background-image: url(../img/me-down-move.png);
+}
+
+#me.up {
+    background-image: url(../img/me-up-move.png);
+}
+
+#me.left {
+    background-image: url(../img/me-left-move.png);
+}
+
+#me.right {
+    background-image: url(../img/me-right-move.png);
+}
