@@ -2,6 +2,8 @@
 
     var size = 80;
 
+    var movement = size / 2;
+
     var boundary = {
         top: size,
         left: size,
@@ -73,19 +75,19 @@
     var keyHandler = {
         left: function() { // left
             // console.log('left');
-            moveMe(size*-1, 0, 'left');
+            moveMe(movement*-1, 0, 'left');
         },
         up: function() { // up
             // console.log('up');
-            moveMe(0, size*-1, 'up');
+            moveMe(0, movement*-1, 'up');
         },
         right: function() { // right
             // console.log('right');
-            moveMe(size, 0, 'right');
+            moveMe(movement, 0, 'right');
         },
         down: function() { // down
             // console.log('down');
-            moveMe(0, size, 'down');
+            moveMe(0, movement, 'down');
         }
     }
 
