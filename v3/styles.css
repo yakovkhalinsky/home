@@ -9,7 +9,7 @@ html, body {
 .macbook-air {
     flex-direction: row;
     margin: 30px 10px;
-    background-image: url(images/mbair13.svg);
+    background-image: url(../images/mbair13.svg);
     background-size: 80% 80%;
     background-position: top center;
     background-repeat: no-repeat;
