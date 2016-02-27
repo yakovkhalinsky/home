@@ -51,10 +51,11 @@ html, body {
 }
 
 .script {
+    align-self: center;
     font-family: 'Great Vibes', cursive;
     font-size: 3.5em;
-    color: #ccc;
-    align-self: center;
+    color: #fff;
+    opacity: 0.8;
 }
 
 .links-projects {
